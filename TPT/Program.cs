@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace TPT
 {
@@ -27,6 +28,7 @@ namespace TPT
 
             // if we breakpoint here we can check the query
             var queryable = context.BillingDetails;
+            queryable.ToList();
          }
 
          Console.ReadKey();
