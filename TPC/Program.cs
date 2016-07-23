@@ -20,8 +20,8 @@ namespace TPC
             using (var context = new DataContext())
             {
                 // profile the sql command generated to the database, 
-                // assumption here is insert statement points to different tables since the entities have their own table and unlike TPH 
-                // where everything is one table but uses the Discriminator column to determine which entity is being queried
+                // insert statement points to different tables since the entities have their own table and unlike TPH 
+                // cont. where everything is one table but uses the Discriminator column to determine which entity is being queried
 
                 // ids are assigned, see notes on DataContext
                 // preferably use guid instead

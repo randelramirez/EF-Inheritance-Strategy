@@ -27,7 +27,6 @@ namespace TPT
                 context.BillingDetails.Add(creditCard2);
                 context.SaveChanges();
 
-
                 #region sql result
 
                 /*
