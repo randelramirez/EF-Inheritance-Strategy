@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPH", "TPH\TPH.csproj", "{F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPT_FluentAPI", "TPT_FluentAPI\TPT_FluentAPI.csproj", "{9F71B352-D73E-4B3A-8858-D89DB76D247F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPH_FluentAPI", "TPH_FluentAPI\TPH_FluentAPI.csproj", "{62582327-7250-4D3A-AD14-E20A887B61B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9F71B352-D73E-4B3A-8858-D89DB76D247F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F71B352-D73E-4B3A-8858-D89DB76D247F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F71B352-D73E-4B3A-8858-D89DB76D247F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62582327-7250-4D3A-AD14-E20A887B61B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62582327-7250-4D3A-AD14-E20A887B61B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62582327-7250-4D3A-AD14-E20A887B61B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62582327-7250-4D3A-AD14-E20A887B61B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
