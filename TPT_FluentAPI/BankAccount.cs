@@ -1,9 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace TPT_FluentAPI
+﻿namespace TPT_FluentAPI
 {
 
-    [Table("BankAccounts")]
     public class BankAccount : BillingDetail
    {
       public string BankName { get; set; }

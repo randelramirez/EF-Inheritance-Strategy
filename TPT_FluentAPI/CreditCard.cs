@@ -1,10 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace TPT_FluentAPI
+﻿namespace TPT_FluentAPI
 {
 
-    [Table("CreditCards")]
-   public class CreditCard : BillingDetail
+    public class CreditCard : BillingDetail
    {
       public int CardType { get; set; }
       public string ExpiryMonth { get; set; }
